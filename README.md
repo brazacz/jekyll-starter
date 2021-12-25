@@ -34,7 +34,7 @@ Markdown is a markup language which allows you to write using an easy-to-read, e
 
 [Link](url) and ![Image](src)
 ```
-Even this text you are reading right now is written in markdown - you can check the source file [index.md](https://github.com/brazacz/jekyll-starter/index.md). For more details about writing in markdown see [this tutorial](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Even this text you are reading right now is written in markdown - you can check the source file [index.md](https://raw.githubusercontent.com/brazacz/jekyll-starter/gh-pages/index.md). For more details about writing in markdown see [this tutorial](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ## Jekyll Themes
 To change the layout and styles of your site you can change the `_config.yml` configuration file. Default setting is `theme: minima`. Here is the [list of themes](https://rubygems.org/search?query=summary%3Ajekyll+summary%3Atheme) you can use. Just replace `minima` with another theme and commit the changes (e.g. `jekyll-theme-cayman`, `just-the-docs` or `minimal-mistakes-jekyll`).
