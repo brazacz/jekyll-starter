@@ -1,0 +1,11 @@
+title: "Your title" # Change title of your site here
+description: "Write an description for your new site here."
+baseurl: "" # the subpath of your site. You can leave it empty o change e.g.to /blog or /docs, etc.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+markdown: kramdown
+highlighter: rouge
