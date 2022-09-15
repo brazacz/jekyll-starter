@@ -1,10 +1,10 @@
 title: "Your title" # Change title of your site here
-description: "Write an description for your new site here."
-baseurl: "/jekyll-starter" # The subpath of your site. It should be used when the resulting site lives at the subpath of the domain. E.g. if your site lives at example.com/blog, please use baseurl: "/blog". If your site lives at example.com, please leave baseurl empty (baseurl: "").
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Write a description for your new site here."
+baseurl: "/jekyll-starter" # This is subpath of your website, in other words this is where your static website is located. E.g. if your website is located on YourUserName.github.io/jekyll-starter, please use baseurl: "/jekyll-starter". If your site is located on YourUserName.github.io, please leave baseurl empty (baseurl: ""). In case you want to move your website to YourUserName.github.io, besides baseurl don't forget to rename your github repository from "jekyll-starter" to "YourUserName.github.io" (Github repository >> Settings >> Rename repository >> Rename).
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+theme: minima # Change the look of your site. Change minima to e.g. jekyll-theme-cayman, just-the-docs or minimal-mistakes-jekyll. Hundreds of different themes can be found here https://rubygems.org/search?query=summary%3Ajekyll+summary%3Atheme
 plugins:
   - jekyll-feed
 markdown: kramdown
